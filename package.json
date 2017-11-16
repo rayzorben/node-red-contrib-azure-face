@@ -1,6 +1,6 @@
 {
-  "name": "node-red-contrib-azure-face",
-  "version": "1.0.0",
+  "name": "@technocreatives/node-red-contrib-azure-face",
+  "version": "1.0.1",
   "description": "Node-RED wrapper arround Microsoft Azure Cognitive Face API",
   "repository": {
     "type": "git",
