@@ -4,14 +4,8 @@
         <input type="password" id="node-input-key" placeholder="Paste your subscription key">
     </div>
     <div class="form-row">
-        <label for="node-input-region"><i class="icon-tag"></i> Region</label>
-        <select id="node-input-region">
-            <option value='westus'>West US</option>
-            <option value='eastus2'>East US 2</option>
-            <option value='westcentralus'>West Central US</option>
-            <option value='westeurope'>West Europe</option>
-            <option value='southeastasia'>Southeast Asia</option>
-        </select>
+        <label for="node-input-endpoint"><i class="icon-tag"></i> Endpoint</label>
+        <input type="text" id="node-input-endpoint" placeholder="Endpoint">
     </div>
     <div class="form-row">
         <label for="node-input-name"><i class="icon-tag"></i> Name (Optional)</label>
@@ -46,8 +40,8 @@
         color: '#049580',
         defaults: {
             name: { value: "" },
-            region: {
-                value: "westus",
+            endpoint: {
+                value: "",
                 required: true
             }
         },
